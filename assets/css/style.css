@@ -125,7 +125,7 @@ button {
 	font-weight: bold;
 	margin: 0 auto;
 	padding: 20px;
-	width: 20%;
+	width: 100%;
 }
 
 footer {
@@ -136,17 +136,8 @@ footer {
 	width: 100%;
 }
 
-.portfolio {
-	background-color: rgb(200, 200, 200);
-	background-image: url(http://via.placeholder.com/300x200);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: auto 200px;
-	float: left;
-	height: 200px;
-	margin: 10px;
-	padding: 10px;
-	width: 300px;
+.portfolio img {
+	width: 100%;
 }
 
 #social-media p {
@@ -171,14 +162,26 @@ footer {
     	width: 20%;
     }
 
+    button {
+    	width: 75%;
+    }
+
     #header-style {
     	height: 50px;
+    }
+
+    .portfolio img {
+		float: left;
+    	width: 40%;
     }
 }
 
 @media only screen and (min-width: 980px) {
 
-
+	button {
+		width: 25%;
+	}
+	
 	nav li {
 		font-size: 50%;
 	}
